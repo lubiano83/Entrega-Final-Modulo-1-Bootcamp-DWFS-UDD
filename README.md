@@ -5,7 +5,7 @@ Este es un algoritmo desarrollado en **PSeInt** que realiza el cálculo detallad
 ## Funcionalidades
 
 1. **Cálculo del precio total**: Multiplica el precio unitario del producto por la cantidad seleccionada.
-2. **Aplicación de descuentos**: Si se compran 3 o más unidades, se aplica un descuento del 5%.
+2. **Aplicación de descuentos**: Si se compran 2 o más unidades, se aplica un descuento del 5%.
 3. **Cupones de descuento**: Si el cliente tiene un cupón de descuento válido, se aplica un descuento adicional del 10%.
 4. **IVA**: Se calcula el impuesto al valor agregado (12%) sobre el precio con descuentos.
 5. **Costo de envío**: El costo fijo de envío es $10 más $3 por unidad comprada.
@@ -21,7 +21,7 @@ Este es un algoritmo desarrollado en **PSeInt** que realiza el cálculo detallad
 - **Reales**:
   - `cupon_descuento`: Descuento por cupón (10%).
   - `iva`: Impuesto al valor agregado (12%).
-  - `descuento`: Descuento por comprar 3 o más unidades (5%).
+  - `descuento`: Descuento por comprar 2 o más unidades (5%).
 - **Caracter**:
   - `cupon`: Indica si el cliente tiene un cupón ("si" o "no").
 

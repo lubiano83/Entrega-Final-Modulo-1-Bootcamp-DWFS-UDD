@@ -30,7 +30,7 @@ Algoritmo trabajo_final_modulo_1
 	
 	Escribir "El total con descuento es: ", total_neto
 	
-	Escribir "¿Tiene cupon de descuento? (si/no)"
+	Escribir "ï¿½Tiene cupon de descuento? (si/no)"
 	leer cupon
 	
 	si cupon = "si" Entonces
