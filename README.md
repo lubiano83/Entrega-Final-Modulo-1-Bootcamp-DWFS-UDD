@@ -42,20 +42,20 @@ Este es un algoritmo desarrollado en **PSeInt** que realiza el cálculo detallad
 
 Supongamos los siguientes valores de entrada:
 
-- **Precio del producto**: $20
-- **Cantidad**: 5
+- **Precio del producto**: $100
+- **Cantidad**: 2
 - **Cupón**: "si"
 
 El algoritmo realiza los siguientes cálculos:
 
-1. Total inicial: $20 * 5 = $100
-2. Aplicar descuento del 5%: $100 * 0.95 = $95
-3. Aplicar descuento por cupón: $95 * 0.90 = $85.5
-4. Calcular IVA: $85.5 * 1.12 = $95.76
-5. Costo de envío: $10 + ($3 * 5) = $25
-6. Precio final: $95.76 + $25 = $120.76
+1. Total inicial: $100 * 2 = $200
+2. Aplicar descuento del 5%: $200 * 0.95 = $190
+3. Aplicar descuento por cupón: $190 * 0.90 = $171
+4. Calcular IVA: $171 * 1.12 = $191.52
+5. Costo de envío: $10 + ($3 * 2) = $16
+6. Precio final: $191.52 + $16 = $207.52
 
-El cliente deberá pagar **$120.76**.
+El cliente deberá pagar **$207.52**.
 
 ## Cómo usar este código en PSeInt
 
